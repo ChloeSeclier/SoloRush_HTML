@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Voyage Voyage !✈️</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animation.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AU+SA:wght@100..400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <header>
+                <a href=#>
+                    <img class="boite" src="image/logo.jpg">
+                </a>
+            <h1>Welcome on board !</h1>
+            <nav>
+                <!-- Afficher menu nav image/video que sur mobile -->
+            </nav> 
+        </header>
+
+
+        <main>
+            <section>
+                <h2>Nos photos 📸</h2>
+                <div class="wrap_photo">
+                    <p div class="box0">Bienvenue sur notre site dédié à nos aventures en famille ! À travers ces photos, nous partageons avec vous les moments inoubliables de nos voyages, des paysages époustouflants aux instants complices. Embarquez avec nous pour revivre ces souvenirs uniques et découvrir le monde à travers nos yeux.</p>
+                    <div class="box1"><img src="image/plage3.jpg" alt="Plage3" title="box1"></div>
+                    <div class="box2"><img src="image/plage1.jpg" alt="Plage2" title="box2"></div>
+                    <div class="box3"><img src="image/plage4.jpg" alt="Plage4" title="box3"></div>
+                    <div class="box4"><img src="image/poisson1.jpg" alt="Poisson1" title="box4"></div>
+                    <div class="box5"><img src="image/poisson2.jpg" alt="Poisson2" title="box5"></div>
+                    <div class="box6"><img src="image/plage2.jpg" alt="Plage2" title="box6"></div>
+                </ul>
+            </section>
+            <section class="wrap_video">
+                <h2>Notre film 📹</h2>
+                <div class="box7">
+                    <video  controls> <!-- width=500px height=auto -->
+                        <source src="image/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p><br>Plongez au cœur de notre voyage avec cette vidéo qui capture nos plus belles découvertes et moments de joie. Revivez avec nous cette aventure extraordinaire, pleine d'émotions et de souvenirs inoubliables !</p>
+                </div>
+            </section>
+        </main>
+
+
+
+        <footer>
+            <p>Écrit par une famille aimant les voyages. 🐼🌴</p>
+            <p>Nous espérons vous avoir donner envie de voyager !</p>
+            <p>Site fictif - Créé avec Wild Code School</p>
+        </footer>
+
+        <script>
+            var logo = document.querySelector(".boite");
+            logo.addEventListener("click", function(){
+                logo.classList.toggle("bouger");
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,32 @@
+
+.boite:hover{
+    filter: opacity(50%);
+    box-shadow:-0.8em 0.4em .4em rgb(167, 203, 224);
+    transform: translate(0,0);
+    transition: transform 500ms;
+    transform: rotate(-90deg);
+    
+}
+
+.boite.bouger{
+    transform: translate(600px,00px);
+
+}
+
+@media (max-width: 810px) {
+    .boite.bouger{
+        transform: translate(0px,505px);
+    
+    }
+}
+
+img:hover{
+    /* filter: opacity(50%); */
+    /* background-image: url("image/poisson1.jpg"); */
+    transform: scale(1.5);
+    z-index: 5; 
+}
+
+/* h2:hover{
+    background-image: url("image/plage2.jpg");
+} */
